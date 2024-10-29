@@ -1,7 +1,9 @@
 f = open('test.txt', 'r')
-#body = 
+body = f.read()
 f.close()
-#body = 
-f = open('test.txt', )
+
+body = body.replace('java','python')
+
+f = open('test.txt', 'w')
 f.write(body)
 f.close()
